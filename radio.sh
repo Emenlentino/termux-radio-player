@@ -26,8 +26,9 @@ display_header() {
     figlet -f small "FM Bix Player"
     tput sgr0 # Reset color
     echo "Modern Radio Streamer for Termux"
-    echo "--------------------------------"
+    echo ""
     echo "Author: Emenlentino"
+    echo "--------------------------------"
 }
 
 # Function to validate URL
